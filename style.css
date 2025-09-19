@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(143, 12, 143, 0.333);
+  font-family: 'Segoe UI', sans-serif;
+}
+.container{
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(113, 5, 113, 0.333);
+  padding: 7px 20px;
+  border-radius: 4px;
+  color: aliceblue;
+  box-shadow: 0 0 10px rgba(222, 31, 222, 0.557);
+}
+.input-field{
+  display: flex;
+  gap: 15px;
+  padding: 10px ;
+  align-items: center;
+}
+.input-field label{
+  font-weight: 600;
+}
+.input-field input{
+  flex: 1;
+  padding: 7px 10px;
+  border: none;
+  outline: none;
+}
+button{
+  margin: 20px 0;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover{
+  background: #fff;
+  color: rgba(180, 7, 180, 0.989);
+}
+.output{
+  font-size: 18px;
+  margin-bottom: 10px ;
+}
